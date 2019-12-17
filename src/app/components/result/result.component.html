@@ -1,0 +1,29 @@
+<!-- 
+<div *ngIf="resultado">
+    <div  class="caja" *ngFor="let grupo of nombreGrupos"  >
+        <p-card class="grupo" header="{{grupo}}" [style]="{width: '360px'}">
+                <div class="caja2">
+                    <ul>
+                        <li *ngFor="let member of resultado[grupo]"> {{member}}</li>
+                    </ul>
+                </div>
+            </p-card>
+      </div>
+</div> -->
+
+<h2 class="titulo"> Resultados </h2>
+<div *ngIf="resultado">
+        <div  class="caja" *ngFor="let grupo of nombreGrupos"  >
+            <div class="grupo" >
+                <img class="group" src="../../../assets/group.png" alt="">
+                <p> {{grupo}} </p>
+                    <div class="caja2">
+                        <ul>
+                            <li *ngFor="let member of resultado[grupo]"> {{member}}</li>
+                        </ul>
+                    </div>
+                </div>
+          </div>
+    </div>
+
+    <button pButton type="button" label="VOLVER A MEZCLAR" class="ui-button-rounded button-success create"  (click)="createGroups()"> </button>

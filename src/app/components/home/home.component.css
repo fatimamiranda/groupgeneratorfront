@@ -1,0 +1,46 @@
+.add{
+    display:flex;
+   
+}
+
+.ui-float-label{
+    margin: 10px;
+}
+
+
+
+
+.box{
+    position: absolute;
+    top: 115px;
+    left: 50px;
+    width: 90%;
+    
+    
+}
+
+.add{
+    height: 39px;
+    top: 7px;
+   
+}
+
+
+.add button {
+    background-color:#FE4561;
+    border:#FE4561; 
+}
+
+.create{
+    left: 65px;
+    background-color:#FE4561;
+    border:#FE4561; 
+}
+
+.create :hover{
+    background-color:#FE4561;
+}
+
+.member{
+    color: white;
+}

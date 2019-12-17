@@ -1,0 +1,43 @@
+.grupo{
+    display: flex;
+    margin-left: -50px;
+    padding: 20px;
+    width: 33.7%;
+    background-color: white;
+    color: salmon;
+    border: 1px solid salmon;
+    border-radius: 20px;
+     
+}
+
+.caja{
+    margin: 5%;
+  
+}
+
+.caja2{
+  
+    width: 90%;
+}
+
+.p-card div{
+    width: 100%;
+}
+
+
+.group{
+    width: 50px;
+    height: 50px;
+    margin-right: 7px;
+}
+
+.titulo{
+   margin-top: 30px;
+   position: relative;
+   left: 125px;
+}
+.create{
+    left: 65px;
+    background-color:#FE4561;
+    border:#FE4561; 
+}
